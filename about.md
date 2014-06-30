@@ -9,6 +9,7 @@ comments: true
 image:
   feature: 1920px-Stuttgart_at_night_.jpg
   credit: Konstantin Polakov
+  creditlink: http://texturelovers.com
 ---
 
 I am a software developer, developing software since 1999 and professionally since 2001 using Java and popular Open-Source frameworks to build enterprise applications. Currently I run the german devision of [mimacom](http://www.mimacom.de) a company with around 150 employees in europe.

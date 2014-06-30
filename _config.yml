@@ -1,20 +1,59 @@
-# Site wide configuration
+title:            Agim Emruli's Blog
+description:      Agim Emruli's blog about Spring, Spring.IO, Amazon Webservices and Elasticsearch
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              http://localhost:4000
+disqus_shortname:
 
-title:            Site Title
-locale:           en_US
-url:              
+# Owner/author information
+owner:
+  name:           Agim Emruli
+  avatar:         http://www.gravatar.com/avatar/7e983ca06b3bb09286ea83fbedb3c798.png
+  bio:            Entrepreneur, Open-Source Developer, Software-Craftmann
+  email:          agimemruli@gmail.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter:        aemruli
+  facebook:       agim.emruli
+  github:         aemruli
+  stackoverflow:  
+  linkedin:       agimemruli
+  instagram:
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
 
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-# Jekyll configuration
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about/
+  - title: Posts
+    url: /posts/
+  - title: Theme Setup
+    url: /theme-setup/
+  - title: Made Mistakes
+    url: http://mademistakes.com
+    external: true
 
-permalink:   /:categories/:title/
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Berlin
+future:      true
+pygments:    true
+#highlighter: pygments
 markdown:    kramdown
-highlighter: pygments
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
 
 kramdown:
   auto_ids: true
@@ -23,35 +62,12 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-
-# Site owner
-owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

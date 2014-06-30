@@ -8,7 +8,7 @@ disqus_shortname:
 owner:
   name:           Agim Emruli
   avatar:         http://www.gravatar.com/avatar/7e983ca06b3bb09286ea83fbedb3c798.png
-  bio:            Entrepreneur, Open-Source Developer, Software-Craftmann
+  bio:            Entrepreneur, Open-Source Developer, Software Craftsmann
   email:          agimemruli@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        aemruli
@@ -24,7 +24,7 @@ owner:
   steam:
   dribbble:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  google_plus:    AgimEmruli
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -43,7 +43,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Berlin
 future:      true
-pygments:    true
+highlighter: true
 #highlighter: pygments
 markdown:    kramdown
 

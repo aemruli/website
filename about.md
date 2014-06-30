@@ -1,30 +1,30 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tagline: Minimal Mistakes, a Jekyll Theme
-tags: [about, Jekyll, theme, responsive]
-modified: 9-9-2013
+title: About me
+tagline: Spring and more
+tags: [about]
+modified: 06-29-2014
 comments: true
 image:
-  feature: texture-feature-02.jpg
-  credit: Texture Lovers
-  creditlink: http://texturelovers.com
+  feature: 1920px-Stuttgart_at_night_.jpg
+  credit: Konstantin Polakov
 ---
 
-Jekyll is pretty rad and figured releasing a cleaned up version of [my site](http://mademistakes.com)[^1] as a theme for others to hack and build on would be fun. So here be that theme --- I call it **Minimal Mistakes**, a responsive Jekyll theme with large featured images and solid typography. 
+I am a software developer, developing software since 1999 and professionally since 2001 using Java and popular Open-Source frameworks to build enterprise applications. Currently I run the german devision of [mimacom](http://www.mimacom.de) a company with around 150 employees in europe.
 
-## Minimal Mistakes is all about:
+Before running mimacom I was a employee of Interface21/SpringSource that has been aquired by VMware and became [Pivotal](http://www.gopivotal.com) in 2013. I have a broad experience applying Open-Source technologies to create enterprise software solutions in the banking, finance, insurance, healthcare, logistics and government industries. Besides technology I am keen into domain [driven design](http://dddcommunity.org) and have implemented core-domain implementations for retail, logistics, healthcare and government solutions.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments --- content first.
-* Large feature images for posts and pages.
-* Author sidebar to pimp your bio, photo[^2], and social media links.
-* Simple and clear permalink structure *(ie: domain.com/category/post-title)*
+####Open Source
+I am currently closely following/contributing to the following Open-Source projects
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+* I am [Spring.IO](http://www.spring.io) a long term (ca. 2003 - 2004 ) user of the Spring Framework project and have also contributed to different projects as an external contributor or employee of Interface21/SpringSource
+* [Elasticsearch](http://www.elasticsearch.org) is used by me during customer projects in the retail and finance industry. I am a long term [Lucene](http://www.lucene.apache.org) user and moved from Lucene over Solr to Elasticsearch. I am a co-organizer of the Stuttgart [Elasticsearch Meetup](http://www.meetup.com/Elasticsearch-Stuttgart/)
+* [Cloud Foundry](http://cloudfoundry.org/) I am a Cloud Foundry user and help customers to implement Cloud Foundry installations inside their data center or the Amazon Webservice Plattform
 
-[^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
+####Amazon Webservices
+Besides Open-Source I am using and closely following the [Amazon Webservice Plattform](https://aws.amazon.com) since 2006 and have a broad experience using the Amazon Services along with the Java SDK and different services like S3, EC2, Elasticbeanstalk, SNS, SQS, Elasticache, SES.
 
-[^2]: Fancy avatars provided by [Brandon Mathis](http://brandonmathis.com/projects/fancy-avatars/demo/) under a [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+####Personal
+I am born and grown-up in [Stuttgart](http://www.stuttgart.de) the so called "cradle of the automobile". My parents immigrated to germany around 45 years ago from the [Republic of Yugoslavia](http://en.wikipedia.org/wiki/Socialist_Federal_Republic_of_Yugoslavia).
+

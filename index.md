@@ -1,9 +1,9 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+description: "Blog with Spring.IO, AWS and Elasticsearch by Agim Emruli"
+tags: [blog]
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: 2445011606_e2605c8645.jpg
+  credit: John Pastor
+  creditlink: https://www.flickr.com/photos/ttkgeek/
 ---

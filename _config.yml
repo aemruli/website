@@ -1,15 +1,15 @@
 title:            Agim Emruli's Blog
 description:      Agim Emruli's blog about Spring, Spring.IO, Amazon Webservices and Elasticsearch
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
-disqus_shortname:
+url:              http://www.agimemruli.de
+disqus_shortname: aemruli
 
 # Owner/author information
 owner:
   name:           Agim Emruli
   avatar:         http://www.gravatar.com/avatar/7e983ca06b3bb09286ea83fbedb3c798.png
   bio:            Entrepreneur, Open-Source Developer, Software Craftsmann
-  email:          agimemruli@gmail.com
+  email:          agimemruli (at) gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        aemruli
   facebook:       agim.emruli

@@ -1,18 +1,28 @@
 title:            Agim Emruli's Blog
-description:      Agim Emruli's blog about Spring, Spring.IO, Amazon Webservices and Elasticsearch
-# Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://www.agimemruli.de
-disqus_shortname: aemruli
+locale:           en_US
+url:
 
-# Owner/author information
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
 owner:
   name:           Agim Emruli
   avatar:         http://www.gravatar.com/avatar/7e983ca06b3bb09286ea83fbedb3c798.png
   bio:            Entrepreneur, Open-Source Developer, Software Craftsmann
   email:          agimemruli (at) gmail.com
+  disqus_shortname: aemruli
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        aemruli
   facebook:       agim.emruli
+  bing_verify:
   github:         aemruli
   stackoverflow:  
   linkedin:       agimemruli
@@ -24,14 +34,10 @@ owner:
   steam:
   dribbble:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    AgimEmruli
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
+  google:
+    plus:    AgimEmruli
+    analytics:
+    verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
@@ -45,24 +51,10 @@ timezone:    Europe/Berlin
 future:      true
 highlighter: true
 #highlighter: pygments
-markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
